@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="demo" parallel="methods">
+    <test verbose="5" preserve-order="true" name="/Users/ybb/Desktop/面试/TestngDemo" parallel="methods" time-out="10000">
+        <classes>
+<!--            <class name="testng.Demo3"/>-->
+<!--            <class name="testng.Demo4"/>-->
+            <class name="testng.Demo5"/>
+        </classes>
+    </test>
+    <parameter name="firstname" value="tom"/>
+    <parameter name="lastname" value="qiao"/>
+
+</suite>
